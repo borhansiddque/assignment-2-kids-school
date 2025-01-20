@@ -9,12 +9,19 @@
 
 body {
     font-family: "Quicksand", serif;
-    margin: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Common Styles */
 .container {
-    width: 80%;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -41,6 +48,21 @@ body {
     color: #5d58ef;
 }
 
+.linear-one {
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
+.linear-two {
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
+.linear-three {
+border: 0.943px solid #F2E8FF;
+background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
 .btn {
     font-family: "Quicksand", serif;
     padding: 10px 30px;
@@ -65,3 +87,48 @@ body {
 .btn-black {
     background-color: #111;
 }
+
+/* Header Section Style Start */
+.marquee {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+/* Navbar Style Start */
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu li a {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.mobile-menu {
+    font-size: 2rem;
+    color: #111;
+    cursor: pointer;
+    display: none;
+
+}
+
+/* Navbar Style End */
+
+/* Header Section Style End */
