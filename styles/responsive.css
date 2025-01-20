@@ -6,6 +6,10 @@
     .hidden {
         display: none;
     }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
 
     .navbar {
         border-bottom: .5px solid #FEA301;
@@ -39,5 +43,13 @@
     .hero-img {
         width: 100%;
     }
-    
+
+    /* Standard Curriculum Section */
+    .curriculum {
+        padding: 0px 20px;
+    }
+    .curriculum-cards-container {
+        margin: 30px 0px;
+        grid-template-columns: 1fr;
+    }
 }
