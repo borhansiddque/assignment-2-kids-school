@@ -81,7 +81,7 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
 }
 
 .btn-orange {
-    background:#FEA301;
+    background:#fea301;
 }
 
 .btn-black {
@@ -128,7 +128,42 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
     display: none;
 
 }
-
 /* Navbar Style End */
+
+/* Hero Section Start */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.hero-content {
+    width: 40%;
+}
+
+.hero-title {
+    color: #111;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.hero-description {
+    color: #111;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 24px 0px;
+}
+
+.hero-img {
+    width: 40%;
+}
+
+.hero-img img {
+    width: 100%;
+}
+/* Hero Section End */
 
 /* Header Section Style End */

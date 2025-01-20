@@ -1,15 +1,43 @@
 @media only screen and (max-width: 576px) {
     .container {
         width: 100%;
-        padding: 0px 20px;
     }
 
     .hidden {
         display: none;
     }
 
+    .navbar {
+        border-bottom: .5px solid #FEA301;
+        padding: 12px 20px;
+    }
+
     .mobile-menu {
         display: block;
+    }
+    /* Hero Section */
+    .hero-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .hero-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .hero-description {
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .hero-img {
+        width: 100%;
     }
     
 }
