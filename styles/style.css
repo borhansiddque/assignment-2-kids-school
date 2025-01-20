@@ -1,0 +1,67 @@
+/* Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", serif;
+    margin: 100px;
+}
+
+/* Common Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph {
+    font-family: "Raleway", serif;
+    color: #808080;
+    font-size: 0.959rem;
+    font-weight: 500;
+    line-height: 28.761px;
+}
+
+.text-orange {
+    color: #fea301;
+}
+
+.text-skyblue {
+    color: #01acfd;
+}
+
+.text-cyan {
+    color: #05d4df;
+}
+.text-periwinkle {
+    color: #5d58ef;
+}
+
+.btn {
+    font-family: "Quicksand", serif;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn-orange {
+    background:#FEA301;
+}
+
+.btn-black {
+    background-color: #111;
+}
