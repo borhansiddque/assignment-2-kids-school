@@ -99,7 +99,9 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
 .marquee {
     background-color: #111;
     color: #fff;
-    padding: 10px 0px;
+    padding: 15px 0px;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
 /* Navbar Style Start */
@@ -235,5 +237,83 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
     font-size: 1.5rem;
     font-weight: 900;
 }
-
 /* Standard Curriculum Section Style End */
+
+/* Our Stories Section Style Start */
+.our-stories-section {
+    padding: 60px 0px;
+    background: linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%), url("../assets/bg.png");
+}
+
+.our-stories-container {
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+}
+
+.our-story {
+    position: relative;  
+    border-radius: 16px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.our-story-img img {
+    width: 100%;
+}
+
+.our-story-one {
+    grid-row: span 2;
+}
+
+.our-story-content {
+    padding: 30px;
+} 
+
+.our-story-title {
+    color: #111;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 38.347px;
+    margin-top: 20px;
+}
+
+.our-story-content .paragraph {
+    margin-top: 30px;
+}
+
+.our-story-content .paragraph a {
+    color: #01acfd;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.our-story-one .btn {
+    background: #3CD8E8;
+    position: absolute;
+    top: 53%;
+    left: 30px;
+}
+
+.our-story-two .btn,
+.our-story-four .btn,
+.our-story-five .btn {
+    background-color: #95B226;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+}
+
+.our-story-three .btn {
+    background-color: #5d58ef;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+}
+
+.stories-section-btn {
+    text-align: center;
+}
+
+/* Our Stories Section Style End */

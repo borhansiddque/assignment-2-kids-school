@@ -44,12 +44,25 @@
         width: 100%;
     }
 
-    /* Standard Curriculum Section */
+    /* Standard Curriculum Section / Our Stories Section */
     .curriculum {
         padding: 0px 20px;
     }
-    .curriculum-cards-container {
+    .curriculum-cards-container,
+    .our-stories-container {
         margin: 30px 0px;
         grid-template-columns: 1fr;
+    }
+
+    .our-stories-section { 
+        padding: 40px 20px;
+
+    }
+
+    .our-story-two .btn,
+    .our-story-four .btn,
+    .our-story-five .btn,
+    .our-story-three .btn {
+        top: 52%;
     }
 }
