@@ -181,7 +181,6 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
 .curriculum-section {
     padding: 60px 0px;
     background-image: url("../assets/bg.png");
-    background-repeat: no-repeat;
 }
 
 .curriculum-cards-container {
@@ -243,6 +242,7 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
 .our-stories-section {
     padding: 60px 0px;
     background: linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%), url("../assets/bg.png");
+    background-position: center;
 }
 
 .our-stories-container {
@@ -315,5 +315,94 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
 .stories-section-btn {
     text-align: center;
 }
-
 /* Our Stories Section Style End */
+
+/* Footer Start */
+.footer {
+    background-color: #01ACFD;
+    padding: 124px 0px 150px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo h3 {
+    color: #fff;
+font-size: 42.143px;
+font-weight: 700;
+}
+
+.footer-description {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.about-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-links-container a {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.about-links-container a:hover {
+    color: #fea301;
+}
+
+.social-links-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-link {
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-link a {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;;
+    font-weight: 400;
+}
+
+.social-link-one {
+    background-color: #3B5998;
+}
+.social-link-two {
+    background-color: #EA4C89;
+}
+.social-link-three {
+    background-color: #1DA1F2;
+}
+.social-link-four {
+    background-color: #DD4B39;
+}
+
+
+
+/* Footer End */

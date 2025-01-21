@@ -65,4 +65,12 @@
     .our-story-three .btn {
         top: 52%;
     }
+
+    /* Footer */
+    .footer {
+        padding: 80px 20px;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
 }
