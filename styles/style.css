@@ -66,8 +66,8 @@ a {
 }
 
 .linear-three {
-border: 0.943px solid #F2E8FF;
-background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
 }
 
 .btn {
@@ -135,7 +135,6 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
     color: #111;
     cursor: pointer;
     display: none;
-
 }
 /* Navbar Style End */
 
@@ -398,16 +397,16 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
 .social-link-one {
     background-color: #3B5998;
 }
+
 .social-link-two {
     background-color: #EA4C89;
 }
+
 .social-link-three {
     background-color: #1DA1F2;
 }
+
 .social-link-four {
     background-color: #DD4B39;
 }
-
-
-
 /* Footer End */
