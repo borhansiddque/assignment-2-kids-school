@@ -337,8 +337,8 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
 
 .footer-logo h3 {
     color: #fff;
-font-size: 42.143px;
-font-weight: 700;
+    font-size: 42.143px;
+    font-weight: 700;
 }
 
 .footer-description {
