@@ -289,6 +289,11 @@ background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), 
     font-weight: 600;
 }
 
+.our-story .btn:hover {
+    opacity: 1;
+    cursor: default;
+}
+
 .our-story-one .btn {
     background: #3CD8E8;
     position: absolute;
