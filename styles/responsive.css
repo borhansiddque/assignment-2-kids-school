@@ -50,21 +50,35 @@
         padding: 0px 20px;
     }
 
-    .curriculum-cards-container,
-    .our-stories-container {
+    .curriculum-cards-container {
         margin: 30px 0px;
         grid-template-columns: 1fr;
     }
 
     .our-stories-section { 
-        padding: 40px 20px;
+        padding: 20px 20px 50px;
     }
 
-    .our-story-two .btn,
-    .our-story-four .btn,
-    .our-story-five .btn,
-    .our-story-three .btn {
-        top: 61%;
+    .our-stories-container {
+        margin: 30px 0px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our-story .btn {
+        padding: 5px 10px;
+        font-size: 0.75rem;
+        margin-top: -18px;
+        margin-left: 20px;
+    }
+
+    .our-story-content {
+        padding: 15px;
+    } 
+
+    .our-story-title {
+        font-size: 1rem;
+        line-height: 26px;
+        margin-top: 10px;
     }
 
     /* Footer */
@@ -81,11 +95,3 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
-    .our-story-two .btn,
-    .our-story-four .btn,
-    .our-story-five .btn,
-    .our-story-three .btn {
-        top: 52%;
-    }
-}

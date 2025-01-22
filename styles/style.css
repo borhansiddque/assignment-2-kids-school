@@ -295,9 +295,9 @@ a {
 
 .our-story-one .btn {
     background: #3CD8E8;
+    margin-top: -30px;
+    margin-left: 30px;
     position: absolute;
-    top: 53%;
-    left: 30px;
 }
 
 .our-story-two .btn,
@@ -305,15 +305,15 @@ a {
 .our-story-five .btn {
     background-color: #95B226;
     position: absolute;
-    top: 50%;
-    left: 30px;
+    margin-top: -30px;
+    margin-left: 30px;
 }
 
 .our-story-three .btn {
     background-color: #5d58ef;
     position: absolute;
-    top: 50%;
-    left: 30px;
+    margin-top: -30px;
+    margin-left: 30px;
 }
 
 .stories-section-btn {
