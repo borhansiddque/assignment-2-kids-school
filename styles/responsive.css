@@ -19,7 +19,7 @@
     .mobile-menu {
         display: block;
     }
-    
+
     /* Hero Section */
     .hero-container {
         flex-direction: column-reverse;
@@ -64,7 +64,7 @@
     .our-story-four .btn,
     .our-story-five .btn,
     .our-story-three .btn {
-        top: 52%;
+        top: 61%;
     }
 
     /* Footer */
@@ -78,5 +78,14 @@
 
     .footer-description {
         margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .our-story-two .btn,
+    .our-story-four .btn,
+    .our-story-five .btn,
+    .our-story-three .btn {
+        top: 52%;
     }
 }
